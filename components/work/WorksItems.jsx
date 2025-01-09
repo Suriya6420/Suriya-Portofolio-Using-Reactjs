@@ -26,7 +26,7 @@ const WorksItems = ({ item }) => {
 			<img src={item.image} alt='' className='work__img' />
 			<h3 className='work__title'>{item.title}</h3>
 			<div className='work__button-container'>
-				{ <a
+{/* 				{ <a
 					href='#'
 					className='work__button'
 					onClick={handleDemoClick}
@@ -36,7 +36,7 @@ const WorksItems = ({ item }) => {
 					onMouseLeave={() => setShowTooltip(false)}
 				>
 					<i className='bx bx-globe work__button-icon' /> Website
-				</a>}
+				</a>} */}
 				{/* {showTooltip && item.status === 'development' && (
 					<div className='work__tooltip'>Under Development</div>
 				)} */}
