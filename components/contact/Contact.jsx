@@ -12,7 +12,24 @@ const Contact = () => {
         emailjs.sendForm('service_v0k3ilk', 'template_5gzzp5o', form.current, {
             publicKey: 'aHNFn__pLAoA7as6b',
         })
-        e.target.reset()
+
+        .then(
+        (result) => {
+          console.log('SUCCESS!', result.text);
+          alert('Email sent successfully!', {
+            position: 'top-center', // Use string for position
+            autoClose: 3000, // Closes after 3 seconds
+          });
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+         alert(`Failed to send email: ${error.text}`, {
+            position: 'top-center', // Use string for position
+            autoClose: 3000, // Closes after 3 seconds
+          });
+        }
+      );
+    e.target.reset(); // Reset the form fields after submission
   };
 
   return (
@@ -52,12 +69,12 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
-                        <input type="text" name='name' className='contact__form-input' placeholder='Insert Your Name'/>
+                        <input type="text" name='from_name' className='contact__form-input' placeholder='Insert Your Name'/>
                     </div>
 
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Mail</label>
-                        <input type="email" name='email' className='contact__form-input' placeholder='Your Email Address'/>
+                        <input type="email" name='to_name' className='contact__form-input' placeholder='Your Email Address'/>
                     </div>
 
                     <div className="contact__form-div contact__form-area">
