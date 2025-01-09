@@ -1,6 +1,4 @@
-# Portfolio of Soumyajit Basak
-
-<img src ="https://github.com/soumyajiitt/Portfolio/blob/master/src/assets/Work4.png" />
+# Portfolio of Suriyaprakash B J
 
 This project was created with Vite ( React + JavaScript )
 
