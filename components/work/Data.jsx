@@ -24,7 +24,7 @@ export const projectsData = [
 		image: Work3,
 		title: 'Portfolio Website',
 		category: 'web',
-		demoUrl: 'https://Suriyaprakash.netlify.app/',
+		// demoUrl: 'https://suriya-portofolio-using-reactjs.vercel.app/',
 		sourceUrl: 'https://github.com/Suriya6420/Suriya-Portofolio-Using-Reactjs',
 		status: 'completed',
 	},
