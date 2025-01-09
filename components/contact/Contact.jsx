@@ -69,17 +69,17 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Name</label>
-                        <input type="text" name='from_name' className='contact__form-input' placeholder='Insert Your Name'/>
+                        <input type="text" name='from_name' className='contact__form-input' placeholder='Insert Your Name' required/>
                     </div>
 
                     <div className="contact__form-div">
                         <label className="contact__form-tag">Mail</label>
-                        <input type="email" name='to_name' className='contact__form-input' placeholder='Your Email Address'/>
+                        <input type="email" name='to_name' className='contact__form-input' placeholder='Your Email Address' required/>
                     </div>
 
                     <div className="contact__form-div contact__form-area">
                         <label className="contact__form-tag">Message</label>
-                        <textarea name="message" cols="30" rows="10" className='contact__form-input' placeholder='Send a message to get started.'></textarea>
+                        <textarea name="message" cols="30" rows="10" className='contact__form-input' placeholder='Send a message to get started.' required></textarea>
                     </div>
 
                     <button className="button button--flex">
