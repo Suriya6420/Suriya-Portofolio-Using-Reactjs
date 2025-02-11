@@ -60,7 +60,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Bootstrap</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@ const Frontend = () => {
 
                     <div>
                         <h3 className="skills__name">Git</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
 
