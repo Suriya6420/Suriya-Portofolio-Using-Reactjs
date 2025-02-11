@@ -31,7 +31,7 @@ const Coursework = () => {
 
                     <div>
                         <h3 className="skills__name">VS Code</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ const Coursework = () => {
 
                     <div>
                         <h3 className="skills__name">NetBeans</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Basic</span>
                     </div>
                 </div>
             </div>
